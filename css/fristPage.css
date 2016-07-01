@@ -1,0 +1,32 @@
+body{margin: 0;height: 0;}
+.nav ul li{list-style: none;float: left;margin-top: 55px;margin-left: 50px;font-family: "microsoft yahei";font-weight: lighter;font-size: 16px;color: #ffffff;}
+.nav{width: 1120px;height: 70px;margin: 0 auto;position: relative;}
+.header{width: 100%;height:720px;background-image: url(../img/background1.png);background-repeat: no-repeat;position: relative;}
+.nav a{text-decoration: none;}
+.nav-bg{
+	width: 100%;
+	height: 90px;
+	background: #f1f1f1;
+	position: relative;
+	background-color:rgba(222, 218, 218, 0.1); 	
+}
+@media only screen and (max-width:1120px ) {
+	 .container-main2{width: 1120px!important;height: auto;}
+	 .header{width: 1120px;}	
+	
+}
+.nav ul li:hover{color: #C7C7C7;}
+.container-main{width: 100%;height: auto;}
+.container-nav{width:1120px;height: 225px;position: relative;margin: 0 auto;text-align: center;overflow: hidden;}
+.container-nav ul li{list-style: none;float: left;width: 153px;height: 145px;margin-right: 65px;padding-top: 60px;position: relative;}
+.container-nav ul li p{margin-top: 15px;}
+.container-main1{height: auto;width: 100%;position: relative;}
+.cm1-content{height: 785px;width: 1120px;margin:0 auto;text-align: center;position: relative;padding-top: 60px;}
+.cm1-content h2{color: #6C7A81;font-size: 14px;margin-top: 9px;margin-bottom: 58px;position: relative;font-family: "microsoft yahei";font-weight: lighter;}
+.cm1-content p{margin-right:300px;margin-left: 300px;width: 95%;color: #464747;font-size: 14px;font-family: "微软雅黑";text-align: left;text-indent: 2em;position: relative;margin: 0 auto;margin-bottom: 10px;}
+.container-main2{height: auto;width: 100%;background: #E9EAEA;position: ;}
+.cm2-content{width:1124px;height:516px;position: relative;margin: 0 auto;text-align: center;overflow: hidden;padding-top: 56px;}
+.cm2-content h2{color: #6C7A81;font-size: 14px;margin-top: 19px;margin-bottom: 58px;position: relative;font-family: "microsoft yahei";font-weight: lighter;}
+.cm2-content h3{ font-size: 36px;font-family: "microsoft sans serif";font-weight: lighter;color: #6C7A81;text-align: left;margin-left: 5px;}
+.cm2-content h3 div{width: 12px;height: 43px;background: red;float: left;margin-right: 10px;}
+.cm2-font{width: 560px;height: 255px;float: left;font-size: 12px;color: #525252;font-family: "microsoft yahei";text-align: left;text-indent: 2em;margin-right: 20px;line-height: 16px;}
